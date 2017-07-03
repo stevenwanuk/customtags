@@ -1,91 +1,121 @@
 package com.sven.topic.convertor;
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
 import com.sven.topic.model.Para;
 import com.sven.topic.model.ParaContent;
-import com.sven.topic.model.ParaFigure;
 import com.sven.topic.model.ParaReference;
 
-public class ParaConvertor implements JsonDeserializer<Para>, JsonSerializer<Para>
+public class ParaConvertor implements JsonDeserializer<Para>//, JsonSerializer<Para>
 {
 
     @Override
     public Para deserialize(final JsonElement json, final Type typeOfT,
             final JsonDeserializationContext context) throws JsonParseException
     {
+        Para para = new Para();
 
-        Para para = read(null, json);
-
+        read(para, json);
         return para;
     }
 
-    protected Para read(final Para para, final JsonElement json)
+    protected void read(final Para parent, final JsonElement json)
     {
 
         if (json.isJsonArray())
         {
 
             JsonArray jsonArray = json.getAsJsonArray();
-            return this.readArrays(null, jsonArray);
+            this.readArrays(parent, jsonArray);
 
         }
         else if (json.isJsonObject())
         {
 
             JsonObject jsonObject = json.getAsJsonObject();
-            return this.read(null, jsonObject);
+            this.readJsonObject(parent, jsonObject);
         }
-        else
+    }
+
+    protected void readArrays(final Para parent, final JsonArray array)
+    {
+        
+        //List<Para> children = new ArrayList<>();
+        for (JsonElement jsonElement : array)
         {
-            return para;
+
+            //Para child = new Para();
+            //children.add(child);
+            this.read(parent, jsonElement);
+            
+
+        }
+
+//        if (children.size() > 0)
+//        {
+//            parent.setPara(children);
+//        }
+    }
+
+    protected void readJsonObject(final Para parent, final JsonObject jsonObject)
+    {
+        
+        if (jsonObject.has("$")) {
+            readParaContent(parent, jsonObject);
+        } 
+        if (jsonObject.has("reference")) {
+            readParaReference(parent, jsonObject); 
         }
     }
 
-    protected Para readArrays(final Para para, final JsonArray array)
+    protected void readParaContent(final Para parent, final JsonObject jsonObject)
     {
-
-        return null;
+        ParaContent content = new Gson().fromJson(jsonObject, ParaContent.class);
+        
+        if (parent.getPara() == null) {
+        
+            List<Para> list = new ArrayList<>();
+            parent.setPara(list);
+        }
+        
+        parent.getPara().add(content);
     }
 
-    protected Para readJsonObject(final Para para, final JsonObject jsonObject)
+    protected void readParaReference(final Para parent, final JsonObject jsonObject)
     {
-
-        return null;
+        
+        ParaReference reference = new Gson().fromJson(jsonObject, ParaReference.class);
+        
+        if (parent.getPara() == null) {
+            
+            List<Para> list = new ArrayList<>();
+            parent.setPara(list);
+        }
+        
+        parent.getPara().add(reference);
     }
 
-    protected ParaContent readParaContent(final Para para, final JsonObject jsonObject)
+    protected void readParaFigure(final Para para, final JsonObject jsonObject)
     {
-
-        return null;
+        
     }
 
-    protected ParaReference readParaReference(final Para para, final JsonObject jsonObject)
-    {
-
-        return null;
-    }
-
-    protected ParaFigure readParaFigure(final Para para, final JsonObject jsonObject)
-    {
-        return null;
-    }
-
-    @Override
-    public JsonElement serialize(final Para src, final Type typeOfSrc,
-            final JsonSerializationContext context)
-    {
-
-        // TODO Auto-generated method stub
-        return null;
-    }
+//    @Override
+//    public JsonElement serialize(final Para src, final Type typeOfSrc,
+//            final JsonSerializationContext context)
+//    {
+//
+//        // TODO Auto-generated method stub
+//        return null;
+//    }
 
 }

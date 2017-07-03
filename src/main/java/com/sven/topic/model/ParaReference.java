@@ -9,6 +9,10 @@ public class ParaReference extends Para
     @Expose
     private Reference reference;
 
+    public ParaReference() {
+        this.setParaType("ParaReference");
+    }
+    
     public Reference getReference()
     {
         return reference;

@@ -9,6 +9,10 @@ public class ParaContent extends Para
     @Expose
     private String text;
     
+    public ParaContent() {
+        this.setParaType("ParaContent");
+    }
+    
     public String getText() {
         return text;
     }
