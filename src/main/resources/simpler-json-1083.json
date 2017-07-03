@@ -1,0 +1,390 @@
+{
+  "topic":{
+    "@dx-id":1083,
+    "@id":"1f753359-5277-4991-ad0c-b2eff2435f59",
+    "@type":"overview",
+    "@lang":"en-gb",
+    "metadata":{
+      "title":{
+        "$":"Overview of depression"
+      },
+      "last-updated":{
+        "$":"2017-06-19T13:54:27.532939Z"
+      },
+      "version-history":{
+        "version":{
+          "@date":"2016-01-29",
+          "reason":{
+            "@update-reason":"content-validated"
+          }
+        }
+      },
+      "synonyms":{
+        "synonym":[
+          {
+            "@displayable":true,
+            "$":"Depression (Overview)"
+          },
+          {
+            "@displayable":false,
+            "$":"The blues"
+          },
+          {
+            "@displayable":false,
+            "$":"Sadness"
+          },
+          {
+            "@displayable":false,
+            "$":"Sad mood"
+          },
+          {
+            "@displayable":false,
+            "$":"Depressed mood"
+          },
+          {
+            "@displayable":false,
+            "$":"Major depression"
+          },
+          {
+            "@displayable":false,
+            "$":"Minor depression"
+          },
+          {
+            "@displayable":false,
+            "$":"Dysthymic disorder"
+          },
+          {
+            "@displayable":false,
+            "$":"Postpartum depression"
+          }
+        ]
+      },
+      "categories":{
+        "category":{
+          "@id":18,
+          "$":"Psychiatry"
+        }
+      }
+    },
+    "summary":null,
+    "content":{
+      "notes":{
+        "para":[
+          {
+            "$":"BP edit. ES 23 april 2009"
+          },
+          {
+            "$":"BP drug edit. KM 29\/04\/09."
+          },
+          {
+            "$":"BP copy edit. SCF 01\/05\/09"
+          },
+          {
+            "$":"BP web check. ES 01\/05\/09"
+          },
+          {
+            "$":"Synonyms changed to false JH 26\/06\/09"
+          },
+          {
+            "$":"AT 12\/01\/2010: Fixed broken links in subtypes."
+          },
+          {
+            "$":"RW, 27 September 2011: Update 2011 changes and new references highlighted in green"
+          },
+          {
+            "$":"30\/09\/2011 AL: DCE Note that there is currently no monograph on bipolar disorder in children in BP RoW version, so the division of Disease subtypes is different from the division in the PoC version (have removed said link from Related topics section)"
+          },
+          {
+            "$":"20\/Feb\/12 VS: Inputted ed changes, CEd"
+          }
+        ]
+      },
+      "summary":{
+        "section":{
+          "section-text":{
+            "para":[
+              {
+                "$":"Depression is a mental state characterised by persistent low mood, loss of interest and enjoyment in everyday activities, neurovegetative disturbance, and reduced energy, causing varying levels of social and occupational dysfunction. Depressive disorders are common in people of all ages and may be classified depending on the duration, severity, and number of symptoms, and the degree of functional impairment."
+              },
+              {
+                "reference":{
+                  "poc-citation":{
+                    "citation":{
+                      "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                    }
+                  }
+                }
+              },
+              {
+                "$":"In bipolar disorder, a manic episode may have been preceded by and may be followed by hypomanic or major depressive episodes."
+              },
+              {
+                "reference":{
+                  "poc-citation":{
+                    "citation":{
+                      "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "disease-subtypes":{
+        "subtype":[
+          {
+            "name":{
+              "$":"Depression in adults"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Major depressive disorder is characterised by at least 5 symptoms during the same 2-week period and may be further categorised as mild, moderate, or severe, based on number of symptoms and degree of functional impairment. Psychotic features (e.g., hallucinations or paranoia) may be present in severe depression."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Depression in children"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Depression in children and adolescents may have a more insidious onset than in adults. It may be characterised more by irritability than sadness, and it often occurs in association with other conditions such as anxiety."
+                },
+                {
+                  "reference":{
+                    "order-status":{
+                      "$":"arrived"
+                    },
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Birmaher B, Ryan ND, Williamson DE, et al. Childhood and adolescent depression: a review of the past 10 years. Part I. J Am Acad Child Adolesc Psychiatry. 1996;35:1427-1439."
+                      }
+                    }
+                  }
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Birmaher B, Brent D, Bernet W, et al. Practice parameter for the assessment and treatment of children and adolescents with depressive disorders. J Am Acad Child Adolesc Psychiatry. 2007;46:1503-1526."
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Disruptive mood dysregulation disorder"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Disruptive mood dysregulation disorder is a category of depressive disorders first diagnosed at 6 to 18 years of age, with age of onset before 10 years. It is characterised by the DSM-5 as severe and persistent irritability or angry mood nearly every day, and severe and recurrent temper outbursts on average 3 or more times per week for at least 1 year."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Persistent depressive disorder (dysthymia)"
+            },
+            "detail":{
+              "para":[{
+                "$":"Common form of depression, but lasting longer than acute major depressive disorder. The DSM-5 developed new diagnostic criteria for persistent depressive disorder that included both chronic major depressive disorder and the previous category of dysthymic disorder (dysthymia), or chronic low-grade depression. The DSM-5 included specifiers to identify different pathways to the diagnosis of persistent depressive disorder and various presentations based on severity and clinical characteristics."
+              }]
+            }
+          },
+          {
+            "name":{
+              "$":"Postpartum depression"
+            },
+            "detail":{
+              "para":[
+                  {
+                    "$":"The DSM-5 does not recognise postpartum depression as a separate diagnosis; rather, patients must meet the criteria for a major depressive episode and the criteria for the peripartum-onset specifier. The definition is, therefore, a major depressive episode with an onset in pregnancy or within 4 weeks of delivery."
+                  },
+                  {
+                    "reference":{
+                      "poc-citation":{
+                        "citation":{
+                          "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                        }
+                      }
+                    }
+                  },
+                {
+                  "$":"Characteristics of postpartum depression may include guilt about the depressive symptoms, ambivalent feelings toward the infant, impaired bonding, and obsessive ruminations, including intrusive thoughts about harming the infant. Postpartum depression should be distinguished from postpartum blues ('baby blues'), in which the symptoms generally resolve within 2 weeks."
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Premenstrual syndrome and dysphoric disorder"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Premenstrual syndrome (PMS) is characterised by cyclical physical and behavioural symptoms occurring in the luteal phase of the menstrual cycle (the period between ovulation and onset of menstruation). Premenstrual dysphoric disorder (PMDD) is a more severe variant that includes at least 1 affective symptom. Depression may coexist with PMS or PMDD in up to 50% of cases. A diagnosis of PMS or PMDD may predate a diagnosis of depression."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Beck LE, Gevirtz R, Mortola JF. The predictive role of psychosocial stress on symptom severity in premenstrual syndrome. Psychosom Med. 1990;52:536-543."
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Seasonal affective disorder"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Seasonal affective disorder (SAD) is a subtype of major depression, occurring with seasonal change. SAD occurs more commonly in high latitudes. Lifetime estimates for depressive and bipolar disorders with a seasonal pattern average between 0.4% and 2.9% in US, Canadian, and UK community studies."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Levitt AJ, Boyle MH. The impact of latitude on the prevalence of seasonal depression. Can J Psychiatry. 2002;47:361-367."
+                      }
+                    }
+                  }
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Levitt AJ, Boyle MH, Joffe RT, et al. Estimated prevalence of the seasonal subtype of major depression in a Canadian community sample. Can J Psychiatry. 2000;45:650-654."
+                      }
+                    }
+                  }
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Blazer DG, Kessler RC, Swartz MS. Epidemiology of recurrent major and minor depression with a seasonal pattern: the National Comorbidity Survey. Br J Psychiatry. 1998;172:164-167."
+                      }
+                    }
+                  }
+                },
+                {
+                  "$":"Some estimates may be as high 9.7%."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"Magnusson A, Axelsson J, Karlsson MM, et al. Lack of seasonal mood change in the Icelandic population: results of a cross-sectional study. Am J Psychiatry. 2000;157:234-238."
+                      },
+                      "fulltext-url":{
+                        "$":"http:\/\/ajp.psychiatryonline.org\/article.aspx?articleid=173951"
+                      }
+                    }
+                  }
+                },
+                {
+                  "$":"However, these differences are probably due to differences in the sampling and diagnostic criteria used."
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Bipolar disorder in adults"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"Bipolar affective disorder is marked by alternating mood elevation (mania or hypomania) and depression."
+                },
+                {
+                  "$":"Bipolar disorder, type I: at least one manic or mixed episode."
+                },
+
+                  {
+                    "$":"Bipolar disorder, type II: has never had a full manic episode; at least one hypomanic episode and at least one major depressive episode."
+                  },
+                  {
+                    "reference":{
+                      "poc-citation":{
+                        "citation":{
+                          "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                        }
+                      }
+                    }
+                  }
+                
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Bipolar disorder in children"
+            },
+            "detail":{
+              "para":[
+                {
+                  "$":"The DSM-5 does not distinguish in its definition between bipolar disorders in adults and children."
+                },
+                {
+                  "reference":{
+                    "poc-citation":{
+                      "citation":{
+                        "$":"American Psychiatric Association. Diagnostic and statistical manual of mental disorders, 5th ed., (DSM-5). Washington, DC: American Psychiatric Publishing; 2013."
+                      }
+                    }
+                  }
+                },
+                {
+                  "$":"The prevalence in children is lower than in adults, though the disease can be more severe and the cycles between mania and depression much quicker."
+                }
+              ]
+            }
+          },
+          {
+            "name":{
+              "$":"Suicide risk management"
+            },
+            "detail":{
+              "para":[{
+                "$":"Suicide is an important causes of death globally. In people aged 15 to 44 years, self-inflicted injury is the fourth-leading cause of death and the sixth-leading cause of ill health and disability worldwide, making suicide a significant public health concern. Suicide risk management refers to the identification, assessment, and treatment of a person exhibiting suicidal behaviour (includes death by suicide, suicide attempt, and suicidal ideation)."
+              }]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

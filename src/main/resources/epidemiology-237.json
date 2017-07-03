@@ -1,0 +1,252 @@
+{
+  "epidemiology": {
+    "para": [
+      [{
+          "$": "Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) are considered rare diseases, and there have not been any well-controlled clinical trials or epidemiological studies to determine the exact prevalence and incidence of these conditions. The incidence of SJS is estimated at 1 to 6 cases/million person-years, and 0.4 to 1.2 cases/million person-years for TEN, in all races and ages and both sexes."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Roujeau JC, Kelly JP, Naldi L, et al. Medication use and the risk of Stevens-Johnson syndrome or toxic epidermal necrolysis. N Engl J Med. 1995;333:1600-1608."
+              },
+              "fulltext-url": {
+                "$": "http://www.nejm.org/doi/full/10.1056/NEJM199512143332404#t=article"
+              }
+            }
+          }
+        },
+        {
+          "$": "One case-control study determined that, of the medicines that precipitate SJS and TEN, the antibacterial sulfonamides had an excess risk of 4.5 cases/million exposed people per week."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Roujeau JC, Kelly JP, Naldi L, et al. Medication use and the risk of Stevens-Johnson syndrome or toxic epidermal necrolysis. N Engl J Med. 1995;333:1600-1608."
+              },
+              "fulltext-url": {
+                "$": "http://www.nejm.org/doi/full/10.1056/NEJM199512143332404#t=article"
+              }
+            }
+          }
+        },
+        {
+          "$": "The incidence and prevalence is increased in specific sub-populations that are exposed to particular drugs, such as anticonvulsants in patients with seizures and anti-HIV medicines in HIV-positive individuals, compared with the population not taking those medicines. HIV-positive patients have a combined incidence of SJS and TEN of 1/1000 person-years."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Coopman SA, Johnson RA, Platt R, et al. Cutaneous disease and drug reactions in HIV infection. N Engl J Med. 1993;328:1670-1674."
+              },
+              "fulltext-url": {
+                "$": "http://www.nejm.org/doi/full/10.1056/NEJM199306103282304#t=article"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Mittmann N, Knowles SR, Koo M, et al. Incidence of toxic epidermal necrolysis and Stevens-Johnson Syndrome in an HIV cohort: an observational, retrospective case series study. Am J Clin Dermatol. 2012;13:49-54."
+              }
+            }
+          }
+        }
+      ],
+      [{
+          "$": "One review found that risk estimates based on the number of prescriptions or daily doses ranged from 1 to 10/10,000 new users for carbamazepine, lamotrigine, phenobarbital, and phenytoin, and were lower for valproic acid."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Mockenhaupt M, Messenheimer J, Tennis P, et al. Risk of Stevens-Johnson syndrome and toxic epidermal necrolysis in new users of antiepileptics. Neurology. 2005;64:1134-1138."
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Calabrese JR, Sullivan JR, Bowden CL, et al. Rash in multicenter trials of lamotrigine in mood disorders: clinical relevance and management. J Clin Psychiatry. 2002;63:1012-1019."
+              }
+            }
+          }
+        },
+        {
+          "$": "Other risk factors for developing SJS/TEN are radiotherapy, collagen vascular disease, transplantation, and herpes infection."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Roujeau JC, Kelly JP, Naldi L, et al. Medication use and the risk of Stevens-Johnson syndrome or toxic epidermal necrolysis. N Engl J Med. 1995;333:1600-1608."
+              },
+              "fulltext-url": {
+                "$": "http://www.nejm.org/doi/full/10.1056/NEJM199512143332404#t=article"
+              }
+            }
+          }
+        }
+      ],
+      [{
+          "$": "Pharmacogenomic studies indicate that ethnicity and HLA types may predispose patients to adverse drug reactions."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Yip VL, Alfirevic A, Pirmohamed M. Genetics of immune-mediated adverse drug reactions: a comprehensive and clinical review. Clin Rev Allergy Immunol. 2015;48:165-175."
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Chang CC, Too CL, Murad S, et al. Association of HLA-B*1502 allele with carbamazepine-induced toxic epidermal necrolysis and Stevens-Johnson syndrome in the multi-ethnic Malaysian population. Int J Dermatol. 2011;50:221-224."
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Chung WH, Hung SI. Genetic markers and danger signals in stevens-johnson syndrome and toxic epidermal necrolysis. Allergol Int. 2010;59:325-332."
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Leckband SG, Kelsoe JR, Dunnenberger HM, et al. Clinical Pharmacogenetics Implementation Consortium guidelines for HLA-B genotype and carbamazepine dosing. Clin Pharmacol Ther. 2013;94:324-328."
+              },
+              "fulltext-url": {
+                "$": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3748365/"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Ueta M, Sawai H, Sotozono C, et al. IKZF1, a new susceptibility gene for cold medicine-related Stevens-Johnson syndrome/toxic epidermal necrolysis with severe mucosal involvement. J Allergy Clin Immunol. 2015;135:1538-1545."
+              }
+            }
+          }
+        },
+        {
+          "$": "HLA-B*1502 allele has a strong association with carbamazepine-induced SJS and TEN in the Han Chinese population; in the US, the FDA recommends testing all Asian people prior to prescribing this medication."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Chang CC, Too CL, Murad S, et al. Association of HLA-B*1502 allele with carbamazepine-induced toxic epidermal necrolysis and Stevens-Johnson syndrome in the multi-ethnic Malaysian population. Int J Dermatol. 2011;50:221-224."
+              }
+            }
+          }
+        },
+        {
+          "$": "HLA-A*0206 and HLA-B*4403 are associated with cold-medicine-related SJS and TEN."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Ueta M, Sawai H, Sotozono C, et al. IKZF1, a new susceptibility gene for cold medicine-related Stevens-Johnson syndrome/toxic epidermal necrolysis with severe mucosal involvement. J Allergy Clin Immunol. 2015;135:1538-1545."
+              }
+            }
+          }
+        },
+        {
+          "$": "HLA-A*3101 has a strong association with SJS and TEN ocular and other complications regardless of ethnicity."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Yip VL, Alfirevic A, Pirmohamed M. Genetics of immune-mediated adverse drug reactions: a comprehensive and clinical review. Clin Rev Allergy Immunol. 2015;48:165-175."
+              }
+            }
+          }
+        },
+        {
+          "figure": {
+            "@target": "/assets/en-gb/monograph-images/237-3_default.jpg",
+            "caption": {
+              "$": "Toxic epidermal necrolysis with epidermal loss, ocular involvement, and echthyma gangrenosum"
+            },
+            "source": {
+              "$": "From the personal collection of Dr A. Kowal-Vern"
+            }
+          }
+        },
+        {
+          "$": "All Individuals with HLA-B*5801 are at risk for allopurinol-induced SJS/TENS."
+        },
+        {
+          "reference1": {
+            "poc-citation": {
+              "citation": {
+                "$": "Hershfield MS, Callaghan JT, Tassaneeyakul W, et al. Clinical Pharmacogenetics Implementation Consortium guidelines for human leukocyte antigen-B genotype and allopurinol dosing. Clin Pharmacol Ther. 2013;93:153-158."
+              },
+              "fulltext-url": {
+                "$": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3564416/"
+              }
+            }
+          }
+        }
+      ],
+      [{
+          "$": "Presence of HLA-B*1502, HLA-C*0602, or HLA-C*0801 alleles has been associated with trimethoprim/sulfamethoxazole-induced SJS/TEN."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Dodiuk-Gad RP, Chung WH, Valeyrie-Allanore L, et al. Stevens-Johnson syndrome and toxic epidermal necrolysis: an update. Am J Clin Dermatol. 2015;16:475-493."
+              },
+              "fulltext-url": {
+                "$": "http://rd.springer.com/article/10.1007%2Fs40257-015-0158-0"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Kongpan T, Mahasirimongkol S, Konyoung P, et al. Candidate HLA genes for prediction of co-trimoxazole-induced severe cutaneous reactions. Pharmacogenet Genomics. 2015;25:402-411."
+              }
+            }
+          }
+        },
+        {
+          "$": "The US Food and Drug Administration recommends that patients are screened for the HLA-B*5701 allele before starting abacavir for HIV infection."
+        },
+        {
+          "reference": {
+            "poc-citation": {
+              "citation": {
+                "$": "Tangamornsuksan W, Lohitnavy O, Kongkaew C, et al. Association of HLA-B*5701 genotypes and abacavir-induced hypersensitivity reaction: a systematic review and meta-analysis. J Pharm Pharm Sci. 2015;18:68-76."
+              },
+              "fulltext-url": {
+                "$": "http://ejournals.library.ualberta.ca/index.php/JPPS/article/view/23356/18071"
+              }
+            }
+          }
+        }
+      ]
+    ]
+  }
+}
