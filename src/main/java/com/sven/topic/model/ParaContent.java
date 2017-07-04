@@ -8,16 +8,14 @@ public class ParaContent extends Para
     @SerializedName("$")
     @Expose
     private String text;
-    
-    public ParaContent() {
-        this.setParaType("ParaContent");
-    }
-    
-    public String getText() {
+
+    public String getText()
+    {
         return text;
     }
 
-    public void setText(final String text) {
+    public void setText(final String text)
+    {
         this.text = text;
     }
 }
