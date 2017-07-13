@@ -1,7 +1,6 @@
 package com.sven.topic;
 
 import java.io.FileInputStream;
-import java.util.List;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
@@ -38,11 +37,9 @@ public class TopicXmlTest
 
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
         Topic topic = (Topic) jaxbUnmarshaller.unmarshal(eventReader);
-
-        List<Object> paras =
-                topic.getContent().getSection().get(0).getSectionText().getParaOrList();
-
-        System.out.println(paras);
+//        
+//
+//        System.out.println(new Gson().toJson(topic));
     }
 }
 
