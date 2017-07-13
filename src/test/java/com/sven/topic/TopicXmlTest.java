@@ -13,6 +13,7 @@ import javax.xml.stream.events.XMLEvent;
 import org.junit.Test;
 import org.springframework.core.io.ClassPathResource;
 
+import com.google.gson.Gson;
 import com.sven.xml.model.Topic;
 
 public class TopicXmlTest
@@ -23,8 +24,7 @@ public class TopicXmlTest
     {
         FileInputStream fisTargetFile =
                 new FileInputStream(new ClassPathResource(
-                        "simpler-xml-237.xml"
-                        ).getFile());
+                        "simpler-xml-237.xml").getFile());
 
         JAXBContext jaxbContext = JAXBContext.newInstance(Topic.class);
 
@@ -37,16 +37,17 @@ public class TopicXmlTest
 
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
         Topic topic = (Topic) jaxbUnmarshaller.unmarshal(eventReader);
-//        
-//
-//        System.out.println(new Gson().toJson(topic));
+
+        System.out.println(new Gson().toJson(topic));
+
     }
 }
 
-class WhitespaceFilter implements EventFilter {
+class WhitespaceFilter implements EventFilter
+{
     @Override
-    public boolean accept(final XMLEvent event) {
-      return !(event.isCharacters() && ((Characters) event)
-          .isWhiteSpace());
+    public boolean accept(final XMLEvent event)
+    {
+        return !(event.isCharacters() && ((Characters) event).isWhiteSpace());
     }
-  }
+}

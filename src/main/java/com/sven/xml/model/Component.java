@@ -8,16 +8,11 @@
 
 package com.sven.xml.model;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElementRef;
-import javax.xml.bind.annotation.XmlElementRefs;
-import javax.xml.bind.annotation.XmlMixed;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -46,22 +41,22 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "content"
+"details", "name"
 })
 @XmlRootElement(name = "component")
 public class Component {
 
-    @XmlElementRefs({
-        @XmlElementRef(name = "details", type = JAXBElement.class),
-        @XmlElementRef(name = "name", type = JAXBElement.class)
-    })
-    @XmlMixed
-    protected List<Serializable> content;
     @XmlAttribute(name = "id")
     protected String id;
     @XmlAttribute(name = "modifier")
     protected String modifier;
-
+    
+    @XmlElement(name = "details")
+    protected String details;
+    @XmlElement(name = "name")
+    protected String name;
+    
+    
     /**
      * Gets the value of the content property.
      * 
@@ -86,11 +81,26 @@ public class Component {
      * 
      * 
      */
-    public List<Serializable> getContent() {
-        if (content == null) {
-            content = new ArrayList<Serializable>();
-        }
-        return this.content;
+
+
+    public String getDetails()
+    {
+        return details;
+    }
+
+    public void setDetails(final String details)
+    {
+        this.details = details;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(final String name)
+    {
+        this.name = name;
     }
 
     /**
@@ -113,7 +123,7 @@ public class Component {
      *     {@link String }
      *     
      */
-    public void setId(String value) {
+    public void setId(final String value) {
         this.id = value;
     }
 
@@ -137,7 +147,7 @@ public class Component {
      *     {@link String }
      *     
      */
-    public void setModifier(String value) {
+    public void setModifier(final String value) {
         this.modifier = value;
     }
 

@@ -87,7 +87,7 @@ public class Metadata {
      *     {@link Title }
      *     
      */
-    public void setTitle(Title value) {
+    public void setTitle(final Title value) {
         this.title = value;
     }
 
@@ -111,7 +111,7 @@ public class Metadata {
      *     {@link XMLGregorianCalendar }
      *     
      */
-    public void setLastUpdated(XMLGregorianCalendar value) {
+    public void setLastUpdated(final XMLGregorianCalendar value) {
         this.lastUpdated = value;
     }
 
@@ -135,7 +135,7 @@ public class Metadata {
      *     {@link VersionHistory }
      *     
      */
-    public void setVersionHistory(VersionHistory value) {
+    public void setVersionHistory(final VersionHistory value) {
         this.versionHistory = value;
     }
 
@@ -159,7 +159,7 @@ public class Metadata {
      *     {@link Synonyms }
      *     
      */
-    public void setSynonyms(Synonyms value) {
+    public void setSynonyms(final Synonyms value) {
         this.synonyms = value;
     }
 
@@ -183,7 +183,7 @@ public class Metadata {
      *     {@link String }
      *     
      */
-    public void setRelatedTopics(String value) {
+    public void setRelatedTopics(final String value) {
         this.relatedTopics = value;
     }
 
@@ -207,7 +207,7 @@ public class Metadata {
      *     {@link Categories }
      *     
      */
-    public void setCategories(Categories value) {
+    public void setCategories(final Categories value) {
         this.categories = value;
     }
 

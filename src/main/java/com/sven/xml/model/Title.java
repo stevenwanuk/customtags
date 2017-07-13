@@ -10,6 +10,7 @@ package com.sven.xml.model;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -49,7 +50,7 @@ public class Title {
 
     @XmlElementRefs({
         @XmlElementRef(name = "reference", type = Reference.class, required = false),
-        @XmlElementRef(name = "topic-title", type = JAXBElement.class, required = false)
+        @XmlElementRef(name = "topic-title", type = TopicTitle.class, required = false)
     })
     @XmlMixed
     protected List<Object> content;
